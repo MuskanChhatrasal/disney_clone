@@ -48,7 +48,10 @@ const BgImage = styled.div`
   z-index: -1;
 `;
 const CTA = styled.div`
-margin-bottom: 2vw;
+max-width: 650px;
+width: 100%;
+display: flex;
+flex-direction: column;
 `;
 
 const CTALogoOne = styled.img`
