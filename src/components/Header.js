@@ -7,9 +7,30 @@ function Header(props) {
         <Logo>
             <img src="/images/logo.svg" alt="Disney+"></img>
         </Logo>
-        <NavMenu><a href='/home' >
+        <NavMenu>
+        <a href='/home' >
           <img src="/images/home-icon.svg" alt="HOME"></img>
           <span>HOME</span>
+        </a>
+        <a>
+          <img src="/images/search-icon.svg" alt="SEARCH"></img>
+          <span>SEARCH</span>
+        </a>
+        <a>
+          <img src="/images/watchlist-icon.svg" alt="WATCHLIST"></img>
+          <span>WATCHLIST</span>
+        </a>
+        <a>
+          <img src="/images/original-icon.svg" alt="ORIGINALS"></img>
+          <span>ORIGINALS</span>
+        </a>
+        <a>
+          <img src="/images/movie-icon.svg" alt="MOVIES"></img>
+          <span>MOVIES</span>
+        </a>
+        <a>
+          <img src="/images/series-icon.svg" alt="SERIES"></img>
+          <span>SERIES</span>
         </a>
         </NavMenu>
         </Nav>
